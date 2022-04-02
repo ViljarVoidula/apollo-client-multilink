@@ -30,7 +30,6 @@ export class MultiAPILink<Endpoints extends MultiLink.DefaultEndpoints = MultiLi
     }
 
     operation.query = query;
-    debugger;
 
     if (this.config.getContext) {
       operation.setContext(this.config.getContext(apiName, operation.getContext));
