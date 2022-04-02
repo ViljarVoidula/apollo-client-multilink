@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./",
+    "paths": {
+      "*": ["@types/*"]
+    },
+    "noFallthroughCasesInSwitch": true,
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noResolve": false,
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist/",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types", "@types"]
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules"]
+}
