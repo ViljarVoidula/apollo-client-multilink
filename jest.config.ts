@@ -7,6 +7,7 @@ const config = {
     '.(ts|tsx|js)': 'ts-jest',
   },
   collectCoverageFrom: ['src/**/*.{js,jsx,ts}'],
+  coverageReporters: ['json-summary', 'lcov'],
 };
 
 export default config;
